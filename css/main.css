@@ -1,0 +1,48 @@
+body {
+    height: 4000px;
+    transition: all .5s;
+}
+
+
+.none {
+    display: none;
+}
+
+
+.borderR {
+    border-radius: 10px;
+    border: 1px solid pink;
+}
+
+i {
+    cursor: pointer;
+    transition: all .4s;
+}
+
+i:hover {
+    transform: scale(1.2);
+}
+
+
+.invalid {
+    border: 1px solid rgb(168, 5, 5);
+}
+
+.checked {
+    background-color: gray;
+    text-decoration: line-through;
+}
+.modal {
+    display: block;
+}
+
+.layout{
+    /* dis */
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 87654345;
+    background-color: rgba(34, 34, 34, 0.3);
+}
